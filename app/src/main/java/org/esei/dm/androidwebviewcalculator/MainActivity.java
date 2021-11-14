@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
-        this.configureWebView( wvView, "http://www.google.es", 10 );
+        this.configureWebView( wvView, "https://www.google.es", 10 );
     }
 
     private void configureWebView(WebView wvView, String url, int defaultFontSize)
